@@ -8,7 +8,6 @@ import springmvc.studentWebApp.Model.Student;
 
 public class SpringRestTest {
 	public static final String REST_SERVICE_URI = "http://localhost:8080/studentWebApp";
-	
 	//---Get one student---//
     private static void testGetStudent(){
         System.out.println("-------Testing getStudent-------");
